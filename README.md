@@ -6,14 +6,10 @@ Web scraping is a technique of extracting data from a website. The required libr
 to be imported are tabula, pandas. The procedural steps to be followed are
 1.Identify the target website: The Aim is to get the number of covid cases in each
 district of Telangana. Choose the official website for accurate information.
-2. Collect URL of the page which you want to extract data from: Store the URL in
-a defined variable.
-3. Daily update of covid cases: The number of cases change on a daily basis.
+2. Daily update of covid cases: The number of cases change on a daily basis.
 Automate the URL for cases update.
-4. Extract the required data: Using tabula and pandas extract the table containing
-columns District name, covid cases.
-5. Save the data in a CSV file: Convert the table into a data frame, make changes
-to the columns names as per the requirement and then convert it into a CSV file.
+3. Extract the required data.
+4. Save the data in a CSV file.
 II.Map Generation using folium
 Folium is a data visualization library in Python that was built to help people
 visualize geospatial data. With Folium, one can create a map of any location in the
